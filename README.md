@@ -28,9 +28,9 @@ The model.py file contains the code for training and saving the convolution neur
 
 ### Model Architecture and Training Strategy
 
-#### 1. An appropriate model architecture has been employed
+#### 1. Model architecture
 
-My model consists of a convolution neural network with 3x3 filter sizes and depths between 16 and 64 (model.py lines 18-24). The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
+My model consists of a convolution neural network with 3x3 filter sizes and depths between 16 and 64 (model.py lines 226-253). The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer. 
 
 #### 2. Attempts to reduce overfitting in the model
 
@@ -108,7 +108,8 @@ ________________________________________________________________________________
 activation_6 (Activation)        (None, 25)            0           dense_3[0][0]
 ____________________________________________________________________________________________________
 dense_4 (Dense)                  (None, 1)             26          activation_6[0][0]
-====================================================================================================
+____________________________________________________________________________________________________
+
 Total params: 10,301,235
 Trainable params: 10,301,235
 Non-trainable params: 0
