@@ -114,7 +114,7 @@ Total params: 10,301,235
 Trainable params: 10,301,235
 Non-trainable params: 0
 
-####3. Creation of the Training Set & Training Process
+#### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving. I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to recover from the sides if it drifts away from center line. 
 
@@ -135,4 +135,4 @@ I used this training data for training the model. The validation set helped dete
 
 I used an adam optimizer so that manually training the learning rate wasn't necessary. However, I did reduce the learning rate and retrain for another 20 epochs to finetune the CNN further.
 
-
+ 
